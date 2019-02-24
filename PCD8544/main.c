@@ -1,4 +1,8 @@
-#include "8544.h"
+#ifndef __8544_H__
+    #define __8544_H__
+    #include "8544.h"
+#endif
+
 int main(void){
 	lcd_init();
 	lcd_clear();
@@ -10,6 +14,5 @@ int main(void){
 	for (;;){
 	_delay_ms(500);	
 	}
-	
 	return 0;
 }
