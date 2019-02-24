@@ -17,6 +17,9 @@
 #define PIN_DIN  PD4 //#Linia danych SPI (MOSI)
 #define PIN_CLK  PD3 //#Linia zegarowa SPI (SCLK)
 
- void lcd_spi_send(uint8_t dc, uint8_t data);
- void lcd_init(void);
- void lcd_clear(void);
+void lcd_spi_send(uint8_t dc, uint8_t data);
+void lcd_init(void);
+void lcd_clear(void);
+void lcd_set_cursor(uint8_t x, uint8_t y);
+void lcd_send_string(char *str, uint8_t x, uint8_t y);
+void lcd_char(uint8_t char1);
