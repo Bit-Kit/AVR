@@ -1,4 +1,4 @@
-//#define F_CPU 8000000UL
+#define F_CPU 8000000UL
 #include "8544.h"
 
 void lcd_spi_send(uint8_t dc, uint8_t data){
@@ -37,7 +37,7 @@ void lcd_clear(void){
 
 void lcd_set_cursor(uint8_t x, uint8_t y){
 	 x=x%12; y=y%6;
-	 lcd_spi_send(LCD_ORDER,0x40+y*7);
+	 lcd_spi_send(LCD_ORDER,0x40+y);
 	 lcd_spi_send(LCD_ORDER,0x80+x*7);	 	 
 }
 void lcd_send_string(char *str, uint8_t x, uint8_t y){
