@@ -2,6 +2,7 @@
     #define __8544_H__
     #include "8544.h"
 #endif
+#define F_CPU 8000000UL
 
 // 12x6 symbols LCD
 int main(void){
