@@ -3,11 +3,11 @@
 
 Pliki źródłowe:
 
-* **[bitmap.h](SSD1306/bitmap.h)** - plik zawierający podstawową konfigurację wyświetlacza, logotyp oraz tablicę zdefiniowanych symboli ASCII
-* **[i2c.c](SSD1306/i2c.c)** - realizacja komunikacji TWI/I2C  
-* **[i2c.h](SSD1306/i2c.h)** - plik nagłówkowy do i2c.c
-* **[ssd1306.c](SSD1306/ssd1306.c)** - realizacja wyświetlenia symboli, wierszy oraz logotypu
-* **[ssd1306.h](SSD1306/ssd1306.h)** - plik nagłówkowy do ssd1306.c
+* **[bitmap.h](bitmap.h)** - plik zawierający podstawową konfigurację wyświetlacza, logotyp oraz tablicę zdefiniowanych symboli ASCII
+* **[i2c.c](i2c.c)** - realizacja komunikacji TWI/I2C  
+* **[i2c.h](i2c.h)** - plik nagłówkowy do i2c.c
+* **[ssd1306.c](ssd1306.c)** - realizacja wyświetlenia symboli, wierszy oraz logotypu
+* **[ssd1306.h](ssd1306.h)** - plik nagłówkowy do ssd1306.c
 
 
 ---
