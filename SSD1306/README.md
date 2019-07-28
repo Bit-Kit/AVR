@@ -1,5 +1,7 @@
 # Obsługa sterownika SSD1306 do wyświetlacza OLED z matrycą o rozmiarze 128×64
 
+Komunikacja jest oparta o magistralę TWI/I2C. Niektóre wyświetlacze ze sterownikiem SSD1306 również posiadają interfejs SPI.
+Wiersze w wyświetlaczu 128 × 64 zdefiniowane jako strony (ang. Pages). Wysokośc takiego wiersza równa się 8 pikseli, co pozwala na wyświetlenie jednego symbolu o rozdzielczości 8 × 6 pikseli.
 
 Pliki źródłowe:
 
