@@ -1,4 +1,4 @@
-Ten repozytorium zawiera biblioteki do sterowania wyświetlaczem "Nokia5110" opartego o układ "PCD8544"
+To repozytorium zawiera biblioteki do sterowania wyświetlaczem "Nokia5110" opartego o układ "PCD8544"
 ===
 
 Geany kompilacja:
